@@ -21,4 +21,16 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/4a90f25a-0fcb-4d03-b08b-662b7e29aff6"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/daf03c0d-cd73-49f6-9804-0c5ef7ca7520"  width="500" height="500"/>
 
+### 03. Doubly Linked List
+
+- 노드가 양방향으로 연결되어 있음
+- head, tail 사이에 양방향으로 연결된 노드 더미가 있음
+- SLL에서 한방향 탐색의 문제를 개선하고자 등장, 하지만 O(n/2)여서 결론적으로는 O(n)임. 즉 약간의 성능 개선은 있음
+- 물론 특정 노드를 기준으로 양방향으로 탐색가능하다는 것은 매우 유용함 
+
+<img src="https://github.com/jongheonleee/data-structure/assets/87258372/98902baf-7cf3-4a3c-84d1-2da06a05f014"  width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data-structure/assets/87258372/88fb226c-3283-402f-ac40-b96f3111f493"  width="500" height="500"/>
+
+
+
 
