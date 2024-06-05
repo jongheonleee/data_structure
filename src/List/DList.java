@@ -9,7 +9,7 @@ public class DList <E extends Comparable> {
 
     public DList() {
         head = new DNode(null, null, null);
-        tail = new DNode(null, null, null);
+        tail = new DNode(null, head, null);
         head.setNext(tail);
         size = 0;
     }
