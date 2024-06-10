@@ -2,6 +2,7 @@ package book.chapter02;
 
 import java.util.EmptyStackException;
 
+// 리스트로 구현한 스택
 public class ListStack <E> {
 
     private Node<E> top;
