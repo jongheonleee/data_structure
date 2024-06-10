@@ -44,7 +44,4 @@
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
 
-### ✍🏻 리스트 성능 분석 
-<img src="https://github.com/jongheonleee/data_structure/assets/87258372/5dc047ce-e24c-4b63-acb8-861ccd1ec15b"  width="500" height="500"/>
-
 
