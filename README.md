@@ -16,7 +16,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/126caa15-8a44-40ec-bffa-2e70f1ea3d30"  width="500" height="500"/>
 
 
-### 02. Singly Linked List : 노드들이 링크로 연결되어 나열된 구조 
+### 02. Singly Linked book.chapter01 : 노드들이 링크로 연결되어 나열된 구조 
 
 - 노드가 한 방향으로 연결되어 있음
 - 배열에서 삽입, 삭제하면 O(n) 이를 O(1)으로 발전
@@ -25,7 +25,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/4a90f25a-0fcb-4d03-b08b-662b7e29aff6"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/daf03c0d-cd73-49f6-9804-0c5ef7ca7520"  width="500" height="500"/>
 
-### 03. Doubly Linked List : 노드들이 2개의 링크로 연결(이전 노드/다음 노드)되어 나열된 구조 
+### 03. Doubly Linked book.chapter01 : 노드들이 2개의 링크로 연결(이전 노드/다음 노드)되어 나열된 구조 
 
 - 노드가 양방향으로 연결되어 있음
 - head, tail 사이에 양방향으로 연결된 노드 더미가 있음
@@ -36,12 +36,14 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/88fb226c-3283-402f-ac40-b96f3111f493"  width="500" height="500"/>
 
 
-### 04. Circular Linked List : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
+### 04. Circular Linked book.chapter01 : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
 
 - 마지막 노드가 첫 노드와 연결된 단순 연결 리스트
 
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fc903da3-ea6c-4ed3-b8b0-af97fbc552e8"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
+
+## 📌 Stack, Queue and Deque : 데이터를 어떤 방향으로 넣고 꺼낼까
 
 

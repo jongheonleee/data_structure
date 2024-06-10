@@ -1,4 +1,4 @@
-package List;
+package book.chapter01;
 
 import java.util.NoSuchElementException;
 
