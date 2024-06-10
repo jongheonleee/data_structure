@@ -1,5 +1,9 @@
 # data-structure
 
+전반적인 자료구조 시간 복잡도
+![image](https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b)
+
+
 ## 📌 List : <strong>데이터가 나열되어 있음</strong>
 
 ### 01. ArrList : 데이터를 연속해서 나열한 구조로 저장 
@@ -35,4 +39,12 @@
 ### 04. Circular Linked List : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
 
 - 마지막 노드가 첫 노드와 연결된 단순 연결 리스트
+
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/fc903da3-ea6c-4ed3-b8b0-af97fbc552e8"  width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
+
+
+### ✍🏻 리스트 성능 분석 
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/5dc047ce-e24c-4b63-acb8-861ccd1ec15b"  width="500" height="500"/>
+
 
