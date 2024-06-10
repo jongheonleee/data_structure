@@ -50,12 +50,10 @@
 
 - LIFO, last in first out 으로 나중에 저장된 데이터 부터 꺼낼 수 있음
 - 책을 쌓아놓은 더미를 생각하면됨 📚
-<img src="https://github.com/jongheonleee/data_structure/assets/87258372/115d0d39-6b56-4a9e-9281-68b2557117de
-"  width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/115d0d39-6b56-4a9e-9281-68b2557117de"  width="500" height="500"/>
 <br>
 
-<img src="https://github.com/jongheonleee/data_structure/assets/87258372/b1c32172-7dc0-4aa9-abe1-3061bd6e3a03
-"  width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/b1c32172-7dc0-4aa9-abe1-3061bd6e3a03"  width="500" height="500"/>
 
 - 위의 문제를 푸는 핵심은 "열린 괄호에는 푸시, 닫힌 괄호 팝을 통해 가장 인접한 짝을 제거해 나가면됨"
 
