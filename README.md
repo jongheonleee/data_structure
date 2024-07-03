@@ -64,7 +64,7 @@
 
 ### 01-1. 일반적인 트리 
 - [일반적인 트리]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/dae67c6b-4ef9-4aa2-ab36-b653e08e6843"  width="500" height="500"/>
 
 <br>
 
@@ -80,7 +80,7 @@
 
 ### 01-2. 이진 트리 
 - [포화/완전 이진 트리 형태]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/32647bcc-ad2b-4e78-9063-5960485bf2e7"  width="500" height="500"/>
 - 이진 트리 구현할 때 Node의 키값은 지네릭으로 제한
   - <Key extends Comparable<Key>> : 기본 정렬 기준을 구현한 Key 
     - 내부적으로 key 끼리 비교 가능해야함 
@@ -88,20 +88,20 @@
 <br>
 
 - [이진 트리 특징]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/736b01ae-c882-4fcd-8c5e-6e8711c97844"  width="500" height="500"/>
 
 <br>
 
 - [배열을 활용한 이진 트리]
-- <img src=""  width="500" height="500"/>
-- (1) a[i]의 부모 => a[i/2](i>1)
-- (2) a[i]의 왼쪽 자식 => a[2*i](2*i <= n)
-- (3) a[i]의 오른쪽 자식 => a[2*i+1](2*i+1 <= n)
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bb276b7a-3d44-451f-afd3-092edbf913ce"  width="500" height="500"/>
+- (1) a[ i ]의 부모 => a[ i/2 ](i>1)
+- (2) a[ i ]의 왼쪽 자식 => a[ 2*i ](2*i <= n)
+- (3) a[ i ]의 오른쪽 자식 => a[ 2*i+1 ](2*i+1 <= n)
 
 <br>
 
 - [편향 이진 트리 & 완전 이진 트리]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/55b9e57c-5e17-44eb-afc1-823cb2dd4ef5"  width="500" height="500"/>
 - 한쪽으로 치우친 트리를 '편향 이진 트리'
 - 링크드 리스트
 
@@ -109,59 +109,55 @@
 <br>
 
 - [이진트리 연산 진행 방향]
-- <img src=""  width="500" height="500"/>
 - 크게 4가지로 구성
   - (1) 전위(Preorder) : N-L-R
     - [방문 순서]
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b7e09bcb-22cc-4dd9-87f5-86992b7c58f7"  width="500" height="500"/>
     - [코드]
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bcf8b468-dead-40ae-9242-3ca4e0fba4b1"  width="500" height="500"/>
     
   - (2) 중위(Inorder) : L-N-R  
       - [방문 순서]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bcb6d003-f190-4181-be74-f2d79cca63d2"  width="500" height="500"/>
       - [코드]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/337d1136-5639-4f16-8423-9507c39bce94"  width="500" height="500"/>
   
     
   - (3) 후위(Postorder) : L-R-N
       - [방문 순서]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4f503e04-3f74-4d53-b8a5-538885643465"  width="500" height="500"/>
       - [코드]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4d2b3101-30d9-4d90-b33a-08f5bcd9460e"  width="500" height="500"/>
     
     
   - (4) 레벨(Levelorder) : bfs, 레벨 단위로 탐색 
       - [방문 순서]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/a99c9c18-58c3-4d40-8398-d7b011b63e9c"  width="500" height="500"/>
       - [코드]
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/66f761df-3c63-490e-bd35-38ddaf092778"  width="500" height="500"/>
 
 <br>
 
 - [이진트리 연산 기초]
-- <img src=""  width="500" height="500"/>
   - 크게 3가지로 구성 
-    - (1) size() : 
-        - [방문 순서]
-        - <img src=""  width="500" height="500"/>
+    - (1) size() : 트리의 노드 수 = 1 + left's nodes + right's nodes
+        - [그림]
+        - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/8700bdf0-35a2-4f8e-8a5a-49fd966c6c4c"  width="500" height="500"/>
         - [코드]
-        - <img src=""  width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/155ada90-e9c4-42aa-bfff-5a1bc12e2cdd"  width="500" height="500"/>
   
-    - (2) height() : 
-        - [방문 순서]
-        - <img src=""  width="500" height="500"/>
+    - (2) height() : 트리의 높이 = 1 + max(left's height, right's height)
+        - [그림]
+        - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/acd2eb44-c8eb-44d8-848f-02ebbac4172b"  width="500" height="500"/>
         - [코드]
-        - <img src=""  width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/72871d39-dd4b-4ba7-baae-83801cd5a1e1"  width="500" height="500"/>
         
-    - (3) isEqual() :
-        - [방문 순서]
-        - <img src=""  width="500" height="500"/>
+    - (3) isEqual() : inorder 순회 결과 비교 -> 같으면 true, 다르면 false
         - [코드]
-        - <img src=""  width="500" height="500"/>
+        - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/cc429921-bc5e-48a3-b82a-bad7f93b91b6"  width="500" height="500"/>
 
     
 - [스레드 이진 트리]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/976ed8da-0caa-4fcc-9387-888ce03dfa24"  width="500" height="500"/>
 - null 참조 공간에 다음에 방문할 노드의 참조를 저장하는 것 
     
