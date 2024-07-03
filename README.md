@@ -164,6 +164,7 @@
 <br>
   
 - [서로소 집합을 위한 트리 연산]
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/8351db2f-5c5a-4e31-a700-ecb3aa09554f"  width="500" height="500"/>
 - 서로소 집합(Disjoint Set) : 어느 두 집합도 공통된 원소를 갖지 않는 경우
   - A && B = 0
 
@@ -181,14 +182,14 @@
   - 위의 연산을 효율적으로 처리 -
     - union -> rank에 기반하여 rank가 높은 루트가 union 후에도 승자(합쳐진 트리의 루트)가 되도록 함
     - [rank 기반 union]
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/9f0539b5-54ff-483f-a630-e7b7622a1bc5"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/cd81c6ff-4ea6-4cd5-86df-b53c071c753a"  width="500" height="500"/>
 
     <br>
     
     - find -> 루트까지 올라가는 경로상의 각 노드의 부모를 루트로 갱신(경로 압축) 
     - [find의 경로압축]
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4fbcda6a-f90f-45e2-b253-6de1fee250e6"  width="500" height="500"/>
 
 
 <br>
