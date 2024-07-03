@@ -4,7 +4,7 @@
 ![image](https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b)
 
 
-## 📌 List : <strong>데이터가 나열되어 있음</strong>
+## 📌 01. List : <strong>데이터가 나열되어 있음</strong>
 
 ### 01. ArrList : 데이터를 연속해서 나열한 구조로 저장 
 
@@ -44,16 +44,124 @@
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
 
-## 📌 Stack, Queue and Deque : 데이터를 어떤 방향으로 넣고 꺼낼까
+## 📌 02. Stack, Queue and Deque : 데이터를 어떤 방향으로 넣고 꺼낼까
 
 ### 01. Stack : LIFO
 
 - LIFO, last in first out 으로 나중에 저장된 데이터 부터 꺼낼 수 있음
 - 책을 쌓아놓은 더미를 생각하면됨 📚
-<img src="https://github.com/jongheonleee/data_structure/assets/87258372/115d0d39-6b56-4a9e-9281-68b2557117de"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/115d0d39-6b56-4a9e-9281-68b2557117de"  width="500" height="500"/>
 <br>
 
-<img src="https://github.com/jongheonleee/data_structure/assets/87258372/b1c32172-7dc0-4aa9-abe1-3061bd6e3a03"  width="500" height="500"/>
-
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b1c32172-7dc0-4aa9-abe1-3061bd6e3a03"  width="500" height="500"/>
 - 위의 문제를 푸는 핵심은 "열린 괄호에는 푸시, 닫힌 괄호 팝을 통해 가장 인접한 짝을 제거해 나가면됨"
 
+
+
+## 📌 02. Tree : List를 업그레이드 시킨 버전 
+
+### 01. Tree(트리) : empty(0), root와 트리의 집합으로 구성
+
+### 01-1. 일반적인 트리 
+- [일반적인 트리]
+- <img src=""  width="500" height="500"/>
+
+<br>
+
+- 트리 용어
+  - 차수 : 자식 수
+  - 레벨 : 루트가 레벨 1, 밑으로 갈수록 1 씩 증가
+  - 높이 : 트리의 최대 레벨
+  - 키 : 노드에 저장된 정보
+  - leaf(잎) : 외부 노드, 단말 노드
+  - leaf 이외의 노드 : 내부 노드 
+
+<br>
+
+### 01-2. 이진 트리 
+- [포화/완전 이진 트리 형태]
+- <img src=""  width="500" height="500"/>
+- 이진 트리 구현할 때 Node의 키값은 지네릭으로 제한
+  - <Key extends Comparable<Key>> : 기본 정렬 기준을 구현한 Key 
+    - 내부적으로 key 끼리 비교 가능해야함 
+
+<br>
+
+- [이진 트리 특징]
+- <img src=""  width="500" height="500"/>
+
+<br>
+
+- [배열을 활용한 이진 트리]
+- <img src=""  width="500" height="500"/>
+- (1) a[i]의 부모 => a[i/2](i>1)
+- (2) a[i]의 왼쪽 자식 => a[2*i](2*i <= n)
+- (3) a[i]의 오른쪽 자식 => a[2*i+1](2*i+1 <= n)
+
+<br>
+
+- [편향 이진 트리 & 완전 이진 트리]
+- <img src=""  width="500" height="500"/>
+- 한쪽으로 치우친 트리를 '편향 이진 트리'
+- 링크드 리스트
+
+
+<br>
+
+- [이진트리 연산 진행 방향]
+- <img src=""  width="500" height="500"/>
+- 크게 4가지로 구성
+  - (1) 전위(Preorder) : N-L-R
+    - [방문 순서]
+    - <img src=""  width="500" height="500"/>
+    - [코드]
+    - <img src=""  width="500" height="500"/>
+    
+  - (2) 중위(Inorder) : L-N-R  
+      - [방문 순서]
+      - <img src=""  width="500" height="500"/>
+      - [코드]
+      - <img src=""  width="500" height="500"/>
+  
+    
+  - (3) 후위(Postorder) : L-R-N
+      - [방문 순서]
+      - <img src=""  width="500" height="500"/>
+      - [코드]
+      - <img src=""  width="500" height="500"/>
+    
+    
+  - (4) 레벨(Levelorder) : bfs, 레벨 단위로 탐색 
+      - [방문 순서]
+      - <img src=""  width="500" height="500"/>
+      - [코드]
+      - <img src=""  width="500" height="500"/>
+
+<br>
+
+- [이진트리 연산 기초]
+- <img src=""  width="500" height="500"/>
+  - 크게 3가지로 구성 
+    - (1) size() : 
+        - [방문 순서]
+        - <img src=""  width="500" height="500"/>
+        - [코드]
+        - <img src=""  width="500" height="500"/>
+  
+    - (2) height() : 
+        - [방문 순서]
+        - <img src=""  width="500" height="500"/>
+        - [코드]
+        - <img src=""  width="500" height="500"/>
+        
+    - (3) isEqual() :
+        - [방문 순서]
+        - <img src=""  width="500" height="500"/>
+        - [코드]
+        - <img src=""  width="500" height="500"/>
+
+    
+- [스레드 이진 트리]
+- <img src=""  width="500" height="500"/>
+- null 참조 공간에 다음에 방문할 노드의 참조를 저장하는 것 
+    
