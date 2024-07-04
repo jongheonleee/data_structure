@@ -1,12 +1,14 @@
-# data-structure
+# 👨🏻‍💻data-structure(자료구조)
 
-전반적인 자료구조 시간 복잡도
+### 📌 전반적인 자료구조 시간 복잡도
+
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b"  width="500" height="500"/>
 
 <br>
 <br>
 
-전반적인 자료구조 시간 복잡도 그래프
+### 📌 전반적인 자료구조 시간 복잡도 그래프
+
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/2915770a-5e60-4659-9714-31b85df1a9dd"  width="500" height="500"/>
 
 
