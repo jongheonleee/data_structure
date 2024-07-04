@@ -1,7 +1,13 @@
 # data-structure
 
 전반적인 자료구조 시간 복잡도
-![image](https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b)
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b"  width="500" height="500"/>
+
+<br>
+<br>
+
+전반적인 자료구조 시간 복잡도 그래프
+<img src=""  width="500" height="500"/>
 
 
 ## 📌 01. List : <strong>데이터가 나열되어 있음</strong>
@@ -16,7 +22,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/126caa15-8a44-40ec-bffa-2e70f1ea3d30"  width="500" height="500"/>
 
 
-### 02. Singly Linked book.chapter01 : 노드들이 링크로 연결되어 나열된 구조 
+### 02. Singly Linked List : 노드들이 링크로 연결되어 나열된 구조 
 
 - 노드가 한 방향으로 연결되어 있음
 - 배열에서 삽입, 삭제하면 O(n) 이를 O(1)으로 발전
@@ -25,7 +31,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/4a90f25a-0fcb-4d03-b08b-662b7e29aff6"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/daf03c0d-cd73-49f6-9804-0c5ef7ca7520"  width="500" height="500"/>
 
-### 03. Doubly Linked book.chapter01 : 노드들이 2개의 링크로 연결(이전 노드/다음 노드)되어 나열된 구조 
+### 03. Doubly Linked List : 노드들이 2개의 링크로 연결(이전 노드/다음 노드)되어 나열된 구조 
 
 - 노드가 양방향으로 연결되어 있음
 - head, tail 사이에 양방향으로 연결된 노드 더미가 있음
@@ -36,7 +42,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/88fb226c-3283-402f-ac40-b96f3111f493"  width="500" height="500"/>
 
 
-### 04. Circular Linked book.chapter01 : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
+### 04. Circular Linked List : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
 
 - 마지막 노드가 첫 노드와 연결된 단순 연결 리스트
 
@@ -56,6 +62,19 @@
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b1c32172-7dc0-4aa9-abe1-3061bd6e3a03"  width="500" height="500"/>
 - 위의 문제를 푸는 핵심은 "열린 괄호에는 푸시, 닫힌 괄호 팝을 통해 가장 인접한 짝을 제거해 나가면됨"
 
+<br>
+<br>
+
+### 02. Queue : FIFO
+
+<br>
+<br>
+
+### 03. Deque : LIFO & FIFO
+
+
+<br>
+<br>
 
 
 ## 📌 02. Tree : List를 업그레이드 시킨 버전 
@@ -206,3 +225,48 @@
 - [이진탐색트리 특징1]
 - <img src=""  width="500" height="500"/>
 - '정렬'과 '범위탐색'에 유리함 
+
+<br>
+
+- BST의 주요 연산은 크게 5가지가 있음 
+  - (1) 탐색 연산 -> O(logn)
+  - [탐색 연산 과정]
+    - <img src=""  width="500" height="500"/>
+    - 탐색 연산 -> O(logn), 실질적으로 트리의 높이와 성능이 직결되기 때문에 balance를 맞추는 것이 중요함
+    - 루트 -> target 
+    - BST의 각 노드들은 <Key extends Comparable<Key>, Value> 로 지네릭 제한을 걸어줘야함
+    - 내부적으로 크고 작음을 비교하여 저장하기 때문 left < x < right
+  
+  <br>
+
+  - (2) 삽입 연산 -> O(logn)
+  - [삽입 연산 과정]
+    - <img src=""  width="500" height="500"/>
+    - <img src=""  width="500" height="500"/>
+    - 내부적으로 탐색을 통해 올바른 위치를 찾아가기 때문에 O(logn)
+    - put()의 경우, 현재 데이터를 올바른 위치에 넣어준 뒤 루트를 다시 가리키도록 하고 수행 종료
+      - (1) 탐색으로 위치 찾기
+      - (2) 노드 생성 및 링크 연결
+      - (3) root 로 이동 및 반환 
+  
+
+  <br>
+
+  - (3) 삭제 연산 -> O(logn)
+  - [삭제 연산 경우]
+    - <img src=""  width="500" height="500"/>
+    - (1) 삭제되는 노드의 자식 0 -> null 처리
+    - (2) 삭제되는 노드의 자식 1 -> x 부모 <-> x 자식, 직접 연결 
+    - (3) 삭제되는 노드의 자식 2 -> 자리 이동
+        -> left의 Max를 x로 이동
+        -> right의 Min을 x로 이동 
+    - 최악의 경우를 고려해보면, 계속 링크를 재연결하면서 올라오는 경우가 생김. 또한 타겟을 찾기 위해서 탐색하는 과정을 거쳐야 하기 때문에 O(logn)
+    
+
+  <br>
+
+  - (4) 최대값/최소값 찾기
+    - [최대값/최소값 연산 과정]
+      - <img src=""  width="500" height="500"/>
+      - <img src=""  width="500" height="500"/>
+  
