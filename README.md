@@ -7,7 +7,7 @@
 <br>
 
 전반적인 자료구조 시간 복잡도 그래프
-<img src=""  width="500" height="500"/>
+<img src="https://github.com/jongheonleee/data_structure/assets/87258372/2915770a-5e60-4659-9714-31b85df1a9dd"  width="500" height="500"/>
 
 
 ## 📌 01. List : <strong>데이터가 나열되어 있음</strong>
@@ -217,13 +217,13 @@
 ### 01-3. 이진 탐색 트리(BST)
 
 - [이진탐색트리 형태]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/437f66c6-d4dc-43c1-b35d-c8304285920b"  width="500" height="500"/>
 - 이진 탐색 O(logn)이 핵심
 - BST는 이진 탐색을 수행하기 위해 링크드 리스트를 변형한 구조 
 
 
 - [이진탐색트리 특징1]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/53ccea28-5f17-4f5a-9300-56d07d669104"  width="500" height="500"/>
 - '정렬'과 '범위탐색'에 유리함 
 
 <br>
@@ -231,7 +231,7 @@
 - BST의 주요 연산은 크게 5가지가 있음 
   - (1) 탐색 연산 -> O(logn)
   - [탐색 연산 과정]
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e34d1598-e2f1-4312-b5dd-f533a8df8ff5"  width="500" height="500"/>
     - 탐색 연산 -> O(logn), 실질적으로 트리의 높이와 성능이 직결되기 때문에 balance를 맞추는 것이 중요함
     - 루트 -> target 
     - BST의 각 노드들은 <Key extends Comparable<Key>, Value> 로 지네릭 제한을 걸어줘야함
@@ -241,8 +241,8 @@
 
   - (2) 삽입 연산 -> O(logn)
   - [삽입 연산 과정]
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e859b50b-5a63-4848-a829-a9154ebd3600"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/abd3cf2f-3fa7-4fcb-bc34-77dca0df880e"  width="500" height="500"/>
     - 내부적으로 탐색을 통해 올바른 위치를 찾아가기 때문에 O(logn)
     - put()의 경우, 현재 데이터를 올바른 위치에 넣어준 뒤 루트를 다시 가리키도록 하고 수행 종료
       - (1) 탐색으로 위치 찾기
@@ -254,7 +254,7 @@
 
   - (3) 삭제 연산 -> O(logn)
   - [삭제 연산 경우]
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/67f65bf6-4b64-4e67-8ac5-d2e8f0ff1344"  width="500" height="500"/>
     - (1) 삭제되는 노드의 자식 0 -> null 처리
     - (2) 삭제되는 노드의 자식 1 -> x 부모 <-> x 자식, 직접 연결 
     - (3) 삭제되는 노드의 자식 2 -> 자리 이동
@@ -267,6 +267,5 @@
 
   - (4) 최대값/최소값 찾기
     - [최대값/최소값 연산 과정]
-      - <img src=""  width="500" height="500"/>
-      - <img src=""  width="500" height="500"/>
+      - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/977c7dd4-ae5e-4730-8e81-c57e606b80b4"  width="500" height="500"/>
   
