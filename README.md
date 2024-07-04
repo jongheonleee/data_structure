@@ -1,5 +1,14 @@
 # 👨🏻‍💻data-structure(자료구조)
 
+## 🫵🏻 자료구조의 핵심
+> ### 그림과 핵심 아이디어(긴 설명보다 핵심을 파악하고 이를 그릴 수 있어야함)
+> ### 자료구조는 각각의 특징들이 있음. 그 특징들은 무언가 개선하려는 노력으로부터 나옴
+> ### 시간 복잡도 & 공간 복잡도
+
+<br>
+
+참고할만한 사이트(그림) : https://visualgo.net/en
+
 ### 📌 전반적인 자료구조 시간 복잡도
 
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b"  width="500" height="500"/>
