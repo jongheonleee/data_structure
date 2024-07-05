@@ -298,29 +298,40 @@
 
 - AVL의 핵심 기능 Rotate(회전 연산)
   - [rotateRight]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4c1f4fd4-b871-4ef8-b659-53883b17c279"  width="500" height="500"/>
   
   <br>
 
   - [rotateLeft]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/9a9597bf-48e7-42df-823f-a6a1226472c8"  width="500" height="500"/>
 
   <br>
 
   - [LL-rotate]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/3b633b7c-1cf8-4f40-b916-e02bc4c19c21"  width="500" height="500"/>
   
   <br>
 
   - [RR-rotate]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/36360145-2ca6-46bd-9af4-0d94a300ed9e"  width="500" height="500"/>
   
   <br>
 
   - [LR-rotate]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/1539b348-a328-4e46-a1b8-41ca263d5ecb"  width="500" height="500"/>
 
   <br>
 
   - [RL-rotate]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bb6d4837-8793-4a5c-ba6e-6a65324a5249"  width="500" height="500"/>
+
+
+<br>
+
+- 연산에서 발생되는 rotate
+  - [삽입]
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/00442ac1-0222-4aba-ba7a-999ce94eff60"  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/30b455ef-6a73-4c3f-98bf-e803ce8944a0"  width="500" height="500"/>
+
+  - [삭제]
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b6139cb5-340b-466c-a581-15e0feeb654e"  width="500" height="500"/>
