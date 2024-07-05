@@ -124,7 +124,7 @@
 
 - [배열을 활용한 이진 트리]
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bb276b7a-3d44-451f-afd3-092edbf913ce"  width="500" height="500"/>
-- (1) a[ i ]의 부모 => a[ i/2 ](i>1)
+- (1) a[ i ]의 부모 => a[ i/2 ] (i>1)
 - (2) a[ i ]의 왼쪽 자식 => a[ 2*i ](2*i <= n)
 - (3) a[ i ]의 오른쪽 자식 => a[ 2*i+1 ](2*i+1 <= n)
 
@@ -225,7 +225,7 @@
 <br>
 <br>
 
-### 01-3. 이진 탐색 트리(BST)
+### 01-3. 이진 탐색 트리(BST) : 크고 작음으로 분리함, 이진탐색 
 
 - [이진탐색트리 형태]
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/437f66c6-d4dc-43c1-b35d-c8304285920b"  width="500" height="500"/>
@@ -280,3 +280,47 @@
     - [최대값/최소값 연산 과정]
       - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/977c7dd4-ae5e-4730-8e81-c57e606b80b4"  width="500" height="500"/>
   
+<br>
+<br>
+
+### 01-4. AVL 트리 : 트리의 핵심은 Balance, 내부적으로 Balance를 맞추는 BST
+
+- AVL 트리 : Balance를 유지하는 BST, 트리의 높이를 최소화하려고 함 
+  - 트리의 연산 성능은 해당 트리의 높이와 직결됨
+  - 따라서, 편향 이진 트리를 방지하고 최대한 양쪽 밸런스를 잡는 것이 중요함 
+  - 즉, 연산(삽입/삭제) 로 인행 밸런스가 깨지면 이를 내부적으로 잡아줌
+
+<br>
+
+- n개의 노드를 가진 AVL 트리의 높이는 O(logn) 임
+
+<br>
+
+- AVL의 핵심 기능 Rotate(회전 연산)
+  - [rotateRight]
+  - <img src=""  width="500" height="500"/>
+  
+  <br>
+
+  - [rotateLeft]
+  - <img src=""  width="500" height="500"/>
+
+  <br>
+
+  - [LL-rotate]
+  - <img src=""  width="500" height="500"/>
+  
+  <br>
+
+  - [RR-rotate]
+  - <img src=""  width="500" height="500"/>
+  
+  <br>
+
+  - [LR-rotate]
+  - <img src=""  width="500" height="500"/>
+
+  <br>
+
+  - [RL-rotate]
+  - <img src=""  width="500" height="500"/>
