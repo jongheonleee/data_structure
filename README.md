@@ -34,6 +34,7 @@
 > ### - Array의 삽입 & 삭제 개선(O(n) -> O(1))
 > ### - 조회 O(n)
 
+<br>
 
 ### 01-1. ArrList : 데이터를 연속해서 나열한 구조로 저장 
 
@@ -44,6 +45,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/ea7c8234-525d-45da-804a-20547e41d1c9"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/126caa15-8a44-40ec-bffa-2e70f1ea3d30"  width="500" height="500"/>
 
+<br>
 
 ### 01-2. Singly Linked List : 노드들이 링크로 연결되어 나열된 구조 
 
@@ -53,6 +55,8 @@
   
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/4a90f25a-0fcb-4d03-b08b-662b7e29aff6"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/daf03c0d-cd73-49f6-9804-0c5ef7ca7520"  width="500" height="500"/>
+
+<br>
 
 ### 01-3. Doubly Linked List : 노드들이 2개의 링크로 연결(이전 노드/다음 노드)되어 나열된 구조 
 
@@ -64,6 +68,7 @@
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/98902baf-7cf3-4a3c-84d1-2da06a05f014"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data-structure/assets/87258372/88fb226c-3283-402f-ac40-b96f3111f493"  width="500" height="500"/>
 
+<br>
 
 ### 01-4. Circular Linked List : 마지막 노드가 첫 노드와 연결되어 있는 구조(기본 형태는 SLL과 같음)
 
@@ -72,8 +77,19 @@
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fc903da3-ea6c-4ed3-b8b0-af97fbc552e8"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
+<br>
+<br>
 
-## 📌 02. Stack, Queue and Deque : 데이터를 어떤 방향으로 넣고 꺼낼까
+
+## 📌 02. Stack, Queue, Deque : 데이터를 어떤 방향으로 넣고 꺼낼까, LIFO, FIFO
+
+<br>
+
+> ### 👉 Stack, Queue, Deque
+> ### - 데이터를 정해진 규칙에 맞게 꺼내옴
+> ### - LIFO, FIFO, LIFO & FIFO
+
+<br>
 
 ### 02-1. Stack : LIFO
 
@@ -86,28 +102,29 @@
 - 위의 문제를 푸는 핵심은 "열린 괄호에는 푸시, 닫힌 괄호 팝을 통해 가장 인접한 짝을 제거해 나가면됨"
 
 <br>
-<br>
 
 ### 02-2. Queue : FIFO
 
-<br>
 <br>
 
 ### 02-3. Deque : LIFO & FIFO
 
 
 <br>
-<br>
 
 
 ## 📌 03. Tree : List를 업그레이드 시킨 버전 
+
+<br>
 
 > ### 👉 Tree
 > ### - List를 업그레이드 시킨 버전(O(n) -> O(logn) 개선)
 > ### - empty(0), root와 트리의 집합으로 구성
 > ### - 성능과 직결되는 부분은 트리의 높이 -> 성능 개선을 하려면 이 높이를 관리 해줘야함 
 
-### 01-1. Tree(트리) 
+<br>
+
+### 03-1. Tree(트리) 
 - [일반적인 트리]
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/dae67c6b-4ef9-4aa2-ab36-b653e08e6843"  width="500" height="500"/>
 
@@ -123,7 +140,7 @@
 
 <br>
 
-### 01-2. Binary Tree(이진 트리) 
+### 03-2. Binary Tree(이진 트리) 
 - [포화/완전 이진 트리 형태]
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/32647bcc-ad2b-4e78-9063-5960485bf2e7"  width="500" height="500"/>
 - 이진 트리 구현할 때 Node의 키값은 지네릭으로 제한
@@ -240,7 +257,7 @@
 <br>
 <br>
 
-### 01-3. 이진 탐색 트리(BST) : 크고 작음으로 분리함(left < x < right), 이진탐색(O(logn))
+### 03-3. 이진 탐색 트리(BST) : 크고 작음으로 분리함(left < x < right), 이진탐색(O(logn))
 
 - [이진탐색트리 형태]
 - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/437f66c6-d4dc-43c1-b35d-c8304285920b"  width="500" height="500"/>
@@ -298,7 +315,7 @@
 <br>
 <br>
 
-### 01-4. AVL 트리 : 트리의 핵심은 Balance, 내부적으로 Balance를 맞추는 BST, 모든 연산 => O(logn) (height = logn)
+### 03-4. AVL 트리 : 트리의 핵심은 Balance, 내부적으로 Balance를 맞추는 BST, 모든 연산 => O(logn) (height = logn)
 
 - AVL 트리 : Balance를 유지하는 BST, 트리의 높이를 최소화하려고 함 
   - 트리의 연산 성능은 해당 트리의 높이와 직결됨
@@ -358,7 +375,7 @@
 <br>
 <br>
 
-### 01-5. 2-3 트리 : BST 보다 더 세분화해서 노드를 저장, 2개 영역 -> 3개 영역으로 확장
+### 03-5. 2-3 트리 : BST 보다 더 세분화해서 노드를 저장, 2개 영역 -> 3개 영역으로 확장
 
 - 내부 노드의 차수가 2 / 3인 완전 균형 탐색 트리
   - 2-노드 : 차수 = 2
