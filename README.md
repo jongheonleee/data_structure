@@ -309,22 +309,25 @@
 
   - [LL-rotate]
   - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/3b633b7c-1cf8-4f40-b916-e02bc4c19c21"  width="500" height="500"/>
-  
+  - LL-rotate : rotateRight
+
   <br>
 
   - [RR-rotate]
   - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/36360145-2ca6-46bd-9af4-0d94a300ed9e"  width="500" height="500"/>
-  
+  - RR-rotate : rotateLeft
+
   <br>
 
   - [LR-rotate]
   - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/1539b348-a328-4e46-a1b8-41ca263d5ecb"  width="500" height="500"/>
+  - LR-rotate : rotateLeft -> rotateRight 
 
   <br>
 
   - [RL-rotate]
   - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bb6d4837-8793-4a5c-ba6e-6a65324a5249"  width="500" height="500"/>
-
+  - RL-rotate : rotateRight -> rotateLeft 
 
 <br>
 
