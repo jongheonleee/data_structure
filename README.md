@@ -657,3 +657,48 @@
 
 <br>
 <br>
+
+## 📌 05. Priority Queue : O(1) 시간에 가장 높은 우선순위를 가진 항목에 접근/삭제하는 구조 
+
+<br>
+
+> ### 👉Priority Queue
+> ### - Stack, Queue 문제점 : 임의의 우선순위를 가진 데이터를 저장하려면, 매번 우선순위에 따라 정렬해야함
+> ### - 이를 개선 -> 데이터가 추가될 때 마다 정렬 상태 유지하지 않고 O(1) 처리 가능하게 만듦
+
+<br>
+
+- Binary Heap(이진 힙)
+  - 완전 이진 트리, 부모의 우선순위가 자식의 우선순위보다 높음
+  - 힙 속성 : 부모의 우선순위 > 자식의 우선순위
+  - 최소힙 : 루트가 Min, 최대힙 : Max
+  - [이진 힙 구조]
+  - <img src=""  width="500" height="500"/>
+  - <img src=""  width="500" height="500"/>
+    
+    - a[i]의 자식 -> a[ 2i ], a[2i+1]
+    - a[j]의 부모 -> a[j/2] (j > 1)
+  
+<br>
+
+- [downheap 연산과정] : 루트 -> left/right -> winner(최소힙 : 작은쪽, 최대힙 : 큰 쪽) & 힙속성 만족할 때 까지 진행 -> leaf 배치
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+
+<br>
+
+- [upheap 연산과정] : leaf -> parent & 힙속성 만족할 때 까지 진행
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+- <img src=""  width="500" height="500"/>
+
+<br>
+
+- [createHeap 연산과정] : bottom-up, 힙속성 만족하도록 부모와 지식을 swap
+- <img src=""  width="500" height="500"/>
+- 힙속성을 만족한다의 의미
+  - (1) root -> min/max 배치
+  - (2) 레벨 별로 정리
