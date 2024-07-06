@@ -10,7 +10,7 @@
 
 ## 📋 목차
 > ### 📌 01. Array, List : 데이터가 나열되어 있음 -> 뭉쳐 있음 / 연결되어 있음 
-> ### 📌 02. Stack, Queue, Deque : 데이터를 어떤 방향으로 넣고 꺼낼까 -> LIFO, FIFO
+> ### 📌 02. Stack, Queue, Deque : 데이터를 어떤 방향으로 넣고 꺼낼까 -> LIFO, FIFO, LIFO & FIFO
 > ### 📌 03. Tree : List를 업그레이드 시킨 버전, O(n) -> O(logn)
 > ### 📌 04. Hash Table : Tree의 취약점 보완 -> { 대용량 x, O(logn) -> 대용량 & O(1) }, Array + List + hash()을 조합한 자료구조
 > ### 📌 05. Priority Queue : Stack, Queue, Deque의 한계 -> 우선순위 처리 x, O(1) 시간에 가장 높은 우선순위를 가진 데이터에 접근/삭제하는 구조
