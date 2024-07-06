@@ -389,7 +389,8 @@
 
 
 - [2-3 트리]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/a89015a7-1fbd-4f66-8e52-f3854e16037d"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/04e4fd14-1111-4ce1-bbcd-e83ea3a8f08c"  width="500" height="500"/>
 
 <br>
 
@@ -401,8 +402,8 @@
 <br>
 
 - [삽입 연산]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/23c5d034-96d0-4245-9931-ebec1c00c9f8"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fd5f36b2-054d-4ceb-9d23-870879c6af68"  width="500" height="500"/>
 - 위로 자라난다의 의미가 이 부분
 - 삽입 이후에 split 가 발생하여 가운데 노드가 위로 올라감 
 
@@ -415,7 +416,7 @@
 <br>
 
 - [통합 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/d1b29ed5-c68f-4b83-ab4a-754cd9129591"  width="500" height="500"/>
 - 노드가 empty인데 이동 연산이 불가능한 경우 발생
 - empty 노드와 그의 형제 노드를 하나의 노드로 통합하고, empty 노드와 그의 형제 노드의 분기점 역할을 하던 부모의 키를 통합된 노드로 끌어내려 저장하는 연산
 
@@ -439,11 +440,9 @@
   - (4) Red link 는 왼쪽으로 기울어짐(Red Link 좌편향 규칙)
 
 - [Red-Black 트리 특징]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/43a6d394-570c-4f38-9575-cb0d28790d23"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/0caa8948-8d86-4602-86eb-5a8a68f581fd"  width="500" height="500"/>
 
-<br>
-
-- <img src=""  width="500" height="500"/>
 
 <br>
 
@@ -456,27 +455,30 @@
 
 - Red-Black 트리의 기본 연산 크게 3가지
   - (1) rotateLeft : 노드의 오른쪽 Red Link를 왼쪽으로 옮김
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/7b008f51-1fdc-4ede-8d08-ef1f3d14b4e8"  width="500" height="500"/>
   
   <br>
   
   - (2) rotateRight : 노드의 왼쪽 Red Link를 오른쪽으로 옮김
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/1debfaf6-3c9c-41b9-8139-310d14edf9b4"  width="500" height="500"/>
   
   <br>
     
-  - (3) flipColors : 노드의 두 Link의 색이 같을 때, 둘 다 다른 색으로 바꾸는 연산 
-  - <img src=""  width="500" height="500"/>
+  - (3) flipColors : 노드의 두 Link의 색이 같을 때, 둘 다 다른 색으로 바꾸는 연산
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/cad21f60-f55f-4080-a96c-b6f3e2efdab4"  width="500" height="500"/>
   
 
 <br>
 
 - [삽입 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/443e623d-34e0-480d-afcb-c4f999cadc46"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/77ef7552-7694-498d-8266-b48151543bc1"  width="500" height="500"/>
 
 - [최소값 삭제 연산]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ed7b6dfa-db82-454f-a31d-ff0b5877a8b6"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/a8d3341c-8b0f-41d2-be25-9678e091a6e9"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fa19b5ef-53e6-4ad7-bff6-5b3fe81983cf"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/3a4f8e83-147a-4b56-962b-8e7ba0dcebee"  width="500" height="500"/>
 - 루트로부터 삭제하는 노드 방향으로 Red Link를 옮김
 - 삭제되는 노드를 Red로 만든후 삭제 
 
@@ -498,20 +500,21 @@
   - (3) 루트의 자식 수는 2 이상 
 
 - [B-Tree 특징]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fe3cf0f9-50b2-4ad8-94b1-92f6c8e1b197"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/3f0211bf-1d9b-4e84-bbb8-936a0353d446"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/7bea5569-003e-48c1-bcb9-6b1e34bacefb"  width="500" height="500"/>
 
 <br>
 
 - [탐색 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/76aa435e-23fc-4f59-be1f-936f929683a1"  width="500" height="500"/>
 - 방문한 각 노드에서는 탐색하고자 하는 키와 노드의 키들을 비교, 적절한 서브트리 탐색
 - 각 노드에서는 이진 탐색 수행
 
 <br>
 
 - [삽입 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b6de8713-b931-428f-8f6e-e16f2d924c95"  width="500" height="500"/>
 - 탐색 과정 거침
 - 노드의 키들이 정렬 상태를 유지하도록 삽입
 - leaf의 개수 = M-1 
@@ -521,7 +524,9 @@
 <br>
 
 - [삭제 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bdfa76ee-e563-4bd4-b554-0760e2997b8e"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/635b7805-406d-4f80-a701-73a0773e1cf3"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/7bcb8c39-ed44-4d3a-8d99-243f6cdc98ad"  width="500" height="500"/>
 - 삭제는 항상 leaf에서 이루어짐
 - 삭제할 노드가 leaf가 아님
   - 중위 선행자/중위 후속자를 삭제할 키와 교환
@@ -540,7 +545,7 @@
   
   <br>
   - (2) B+ - Tree 
-    - <img src=""  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/8955c362-9710-4946-859a-cc443f749e83"  width="500" height="500"/>
     - 키들만을 가지고 B -Tree 구성
     - leaf에 키와 관련 정보를 저장함
       - 키들로 구성한 B-Tree는 탐색/삽입/삭제 연산을 위해 관련된 leaf을 빨리 찾을 수 있도록 안내
@@ -549,5 +554,5 @@
 <br>
 
 > ## 🧑🏻‍🏫 Tree 파트 요약
-> ### <img src=""  width="500" height="500"/>
-> ### <img src=""  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/42ca83a7-52da-4299-b4c2-d3e557543568"  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e3de108b-7bc4-4fd2-9df9-75285c91b601"  width="500" height="500"/>
