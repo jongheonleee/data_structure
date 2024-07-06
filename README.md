@@ -662,7 +662,7 @@
 
 <br>
 
-> ### 👉Priority Queue
+> ### 👉 Priority Queue
 > ### - Stack, Queue 문제점 : 임의의 우선순위를 가진 데이터를 저장하려면, 매번 우선순위에 따라 정렬해야함
 > ### - 이를 개선 -> 데이터가 추가될 때 마다 정렬 상태 유지하지 않고 O(1) 처리 가능하게 만듦
 
@@ -673,8 +673,8 @@
   - 힙 속성 : 부모의 우선순위 > 자식의 우선순위
   - 최소힙 : 루트가 Min, 최대힙 : Max
   - [이진 힙 구조]
-  - <img src=""  width="500" height="500"/>
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/de6c68c5-1309-4a77-a083-5a3549c33045"  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/800b1a72-36ab-4e21-828a-38fbdf033009"  width="500" height="500"/>
     
     - a[i]의 자식 -> a[ 2i ], a[2i+1]
     - a[j]의 부모 -> a[j/2] (j > 1)
@@ -682,23 +682,28 @@
 <br>
 
 - [downheap 연산과정] : 루트 -> left/right -> winner(최소힙 : 작은쪽, 최대힙 : 큰 쪽) & 힙속성 만족할 때 까지 진행 -> leaf 배치
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/7ed6bf57-95ad-4264-9a96-de6b143e9734"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/cdff112c-fc4c-499e-86b1-7c132359b05c"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/f35bc905-7f77-47e3-8241-3b6b8b0a2909"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/c94ff1d8-9730-4c34-b250-6bdf7cabd28e"  width="500" height="500"/>
 
 <br>
 
 - [upheap 연산과정] : leaf -> parent & 힙속성 만족할 때 까지 진행
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/f00d0927-5fe7-4b5a-bb8d-fbfb0cd01286"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/183e33f7-41ca-44f7-bd33-80e831ced8ed"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/968f3510-8148-4e46-a536-b29eff73b87a"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/51a3a41c-5a6b-442c-bb7d-4a849bbb973f"  width="500" height="500"/>
 
 <br>
 
 - [createHeap 연산과정] : bottom-up, 힙속성 만족하도록 부모와 지식을 swap
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bdf0b8ad-2963-4081-824e-4b51257e62c1"  width="500" height="500"/>
 - 힙속성을 만족한다의 의미
   - (1) root -> min/max 배치
   - (2) 레벨 별로 정리
+
+<br>
+
+> ## 🧑🏻‍🏫  Priority Queue 파트 요약
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ab62adc8-c997-4bb0-a323-5c521ee4126d"  width="500" height="500"/>
