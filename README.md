@@ -734,8 +734,8 @@
 
 - 정렬된 부분/정렬 안된 부분, 정렬 안된 부분 -> '최소값', 정렬된 부분에 '최소값'을 배치 
 - [선택 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/268fde85-2b3e-4d42-825c-8d9dfe7fac3d"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fcd7538d-1f9d-4f28-b4b4-ef939c893a8d"  width="500" height="500"/>
 - 시간 복잡도 : O(n^2), 공간 복잡도 : O(1)
 
 
@@ -746,8 +746,9 @@
 - 선택 정렬과 유사함
 - 정렬된 부분/정렬 안된 부분, 정렬 안된 부분 -> '가장 왼쪽 원소', 정렬된 부분에 '가장 왼쪽 원소'를 배치 
 - [삽입 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/14809bc4-80f6-4711-b107-6b8d0f4d35b0"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/73cfc0ff-8b18-45c6-9be8-1f9cfd5d77e1"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/1ae901aa-2b11-4a5d-8c43-10c970c742aa"  width="500" height="500"/>
 - 시간 복잡도 : O(n^2), 공간 복잡도 : O(1)
   - 입력에 민감한 알고리즘 -> 입력에 따라서 성능 차이가 많이남(O(n))
   - 정렬되어 있으면 매우 빠름
@@ -761,8 +762,8 @@
   - 삽입 정렬 하기전에 전처리로 정리함 -> 삽입 정렬은 입력에 따라 성능 차이가 발생
   - 전처리 : 작은 값을 가진 원소들을 배열 앞부분 / 큰 값을 가진 원소들을 배열 뒷 부분 배치
 - [쉘 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/f7dd8f80-bb42-40f6-8351-b159cb641271"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bcaef499-4a78-4a97-9229-b565d8c9025a"  width="500" height="500"/>
 - 시간 복잡도 : O(n^1.5), 공간 복잡도 : O(1)
 
 <br>
@@ -771,9 +772,9 @@
 
 - 힙 활용함, 최소값을 찾아서 정렬된 영역에 추가
 - [힙 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/143dda3a-2fa1-4e4a-ac0b-3296805f247d"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ecd648f4-e29e-4ac4-a4c5-97c9e2b7a9a5"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/a1a905c6-8294-4e52-8424-c7e9a2f5830a"  width="500" height="500"/>
 - 시간 복잡도 : O(n * logn), 공간 복잡도 : O(1)
 
 <br>
@@ -782,9 +783,10 @@
 
 - n -> n/2 -> 2개 -> 정렬 & 병합 
 - [병합 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/c9e9c4eb-9cc0-42b4-838f-2e9f2bf6466a"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/469176c5-76c9-49aa-b837-0df7dda27fd0"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/2f3d581c-e99a-453a-9cff-4a0d570a889d"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ad8f9ffe-8a63-4ff8-b476-21c74a388b6d"  width="500" height="500"/>
 - 시간 복잡도 : O(n * logn), 공간 복잡도 : O(n)
 
 <br>
@@ -792,9 +794,9 @@
 ### 06-6. Quick Sort(퀵 정렬) : '피벗' 선정 -> left, right 영역 나눔 -> mid에 pivot 배치 
 
 - [퀵 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/534cc79e-1630-4bae-a29a-d120c23548db"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/0cf2725a-9591-406b-9b0f-d02b6ea5b50f"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/8f53a1ee-bc50-4650-96d7-a66299ca7c14"  width="500" height="500"/>
 - 시간 복잡도 : O(n * logn)(최악 O(n^2)), 공간 복잡도 : O(1)
   - 전처리 과정을 통해 성능 향상 가능
   - 최악의 경우 -> 내림차순 -> 이를 섞음
@@ -804,7 +806,7 @@
 ### 06-7. Radix Sort(기수 정렬) : 키를 부분적으로 비교하는 정렬 
 
 - [기수 정렬 과정]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/6786a3df-5872-481b-8033-c3a78c058b5b"  width="500" height="500"/>
 - 기 : 특정 진수를 나타내는 숫자  
 - 키를 부분적으로 비교하는 정렬
   - 키가 숫자 -> 각 자릿수에 대해 비교
@@ -814,7 +816,7 @@
 ### 06-8. Bucket Sort(버킷 정렬) : 키를 배열의 인덱스로 사용하는 정렬
 
 - [버킷 정렬 과정]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/72333c33-d6df-4bf2-a9ea-565dfcdfc7a0"  width="500" height="500"/>
 - 키를 배열의 인덱스로 사용하는 정렬
   - (1) 배열에서 각 숫자의 빈도수를 계산
   - (2) 버킷 인덱스 0부터 차례로 빈도수만큼 배열에 저장
@@ -825,12 +827,13 @@
 ### 06-9. External Sort(외부 정렬) : 보조 기억 장치에 있는 대량의 데이터를 정렬, 병합 정렬 활용
 
 - [외부 정렬 과정]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/f52186c1-72ee-4633-9224-7a0822b120cb"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/bca0fcb9-6bdb-4252-96b0-8b81f2211836"  width="500" height="500"/>
 
 
 <br>
 <br>
 
 > ## 🧑🏻‍🏫  Sort 파트 요약
-> ### <img src=""  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e73510ee-83ff-44ba-a37b-d8d9d550c4c5"  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4417f633-06d0-4b51-bf38-abce1e68548e"  width="500" height="500"/>
