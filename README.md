@@ -878,7 +878,8 @@
 
 - 그래프는 크게 2가지로 구분
   - [그래프 그림]
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/12200c3c-1231-49ed-88af-33bee8e7c775"  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/07de8307-72d4-432b-9393-545eb9987eb6"  width="500" height="500"/>
   - (1) 방향 그래프 : 방향이 있는 그래프
   - (2) 무방향 그래프 : 방향이 없는 그래프, 양방향 
 
@@ -900,8 +901,8 @@
 
 - 그래프를 크게 2가지로 표현함
   - [그래프 표현 그림]
-  - <img src=""  width="500" height="500"/>
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/734e1212-ed07-4a11-b8c5-89635201b833"  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/b2558386-9106-4293-bda7-dbde9bc4be11"  width="500" height="500"/>
   - (1) 인접 행렬 : 배열을 이용한 구조 -> 성능이 매우 좋지만 고정적임, 메모리 낭비가 심함
   - (2) 인접 리스트 : 배열과 리스트를 이용한 구조 -> 유연하지만 성능이 떨어짐 
   
@@ -911,19 +912,19 @@
 - 그래프 탐색에는 크게 2가지 방법이 있음
   - (1) dfs : Depth First Search -> 깊이 우선 탐색
     - [코드]
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>  
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/dde99480-5112-493d-961e-9bea333df874"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ed6c793f-c2ab-4d05-a47b-0ddfbc8afe6f"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/a076c934-e7d1-4cb3-8dc1-20ef4706ee60"  width="500" height="500"/>  
   
   
 <br>
   
   - (2) bfs : Breadth First Search -> 너비 우선 탐색 
     - [코드]
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>
-    - <img src=""  width="500" height="500"/>
-  
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/de987d20-17a9-4841-93e6-3059fa152498"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/2cf0585a-48fa-421a-8112-144e3827e7f6"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/cc57aa92-9346-41b6-9fdd-0cc2c42f789d"  width="500" height="500"/>
+    - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/431fab2f-b639-41b1-8903-f1f612b292ae"  width="500" height="500"/>
  
 <br>
 
@@ -931,6 +932,7 @@
   - dfs -> 각 정점 v의 인접한 정점 방문 -> v 리스트 추가 -> 리스트 역순으로 만듦
   
 - [위상 정렬 그림]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/46b577f3-389b-48c4-827b-426c13c9fff3"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/c370f45d-11e5-4217-a078-d14cc0067b44"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/dec4f677-358c-49ad-bc02-6bd256986919"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/1a2e869c-0705-422d-99d6-32c73bf27454"  width="500" height="500"/>
