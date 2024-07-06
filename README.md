@@ -15,7 +15,7 @@
 > ### 📌 04. Hash Table : Tree의 취약점 보완 -> { 대용량 x, O(logn) -> 대용량 & O(1) }, Array + List + hash()을 조합한 자료구조
 > ### 📌 05. Priority Queue : Stack, Queue, Deque의 한계 -> 우선순위 처리 x, O(1) 시간에 가장 높은 우선순위를 가진 데이터에 접근/삭제하는 구조
 > ### 📌 06. Sort : 특정 순서에 따라 정렬하는 여러가지 알고리즘(7) -> 시간 복잡도 & 공간 복잡도를 지속적으로 개선 
-> ### 📌 06. Graph : 
+> ### 📌 07. Graph : 
 
 
 <br>
@@ -92,6 +92,9 @@
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/fc903da3-ea6c-4ed3-b8b0-af97fbc552e8"  width="500" height="500"/>
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
+> ## 🧑🏻‍🏫  Array, List 파트 요약
+> ### <img src=""  width="500" height="500"/>
+
 <br>
 <br>
 
@@ -127,10 +130,17 @@
 
 <br>
 
+> ## 🧑🏻‍🏫  Stack, Queue, Deque 파트 요약
+> ### <img src=""  width="500" height="500"/>
+
+<br>
+<br>
 
 ## 📌 03. Tree : List를 업그레이드 시킨 버전 
 
 <br>
+
+
 
 > ### 👉 Tree
 > ### - List를 업그레이드 시킨 버전(O(n) -> O(logn) 개선)
@@ -847,8 +857,13 @@
 
 
 <br>
-<br>
 
 > ## 🧑🏻‍🏫  Sort 파트 요약
 > ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e73510ee-83ff-44ba-a37b-d8d9d550c4c5"  width="500" height="500"/>
 > ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4417f633-06d0-4b51-bf38-abce1e68548e"  width="500" height="500"/>
+
+
+<br>
+<br>
+
+### 📌 07. Graph : 
