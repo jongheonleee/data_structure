@@ -4,24 +4,39 @@
 > ### 그림과 핵심 아이디어(긴 설명보다 핵심을 파악하고 이를 그릴 수 있어야함)
 > ### 자료구조는 각각의 특징들이 있음. 그 특징들은 무언가 개선하려는 노력으로부터 나옴
 > ### 시간 복잡도 & 공간 복잡도
+(참고할만한 사이트(그림) : https://visualgo.net/en)
 
 <br>
 
-참고할만한 사이트(그림) : https://visualgo.net/en
+## 📋 목차
+> ### 📌 01. Array, List : 데이터가 나열되어 있음
+> ### 📌 02. Stack, Queue, Deque : 데이터를 어떤 방향으로 넣고 꺼낼까 -> LIFO, FIFO
+> ### 📌 03. Tree : List를 업그레이드 시킨 버전, O(n) -> O(logn)
+> ### 📌 04. Hash Table : Tree의 취약점 보완 -> { 대용량 x, O(logn) -> 대용량 & O(1) }, Array + List + hash()을 조합한 자료구조
+> ### 📌 05. Priority Queue : Stack, Queue, Deque의 한계 -> 우선순위 처리 x, O(1) 시간에 가장 높은 우선순위를 가진 데이터에 접근/삭제하는 구조
+> ### 📌 06. Sort : 특정 순서에 따라 정렬하는 여러가지 알고리즘(7) -> 시간 복잡도 & 공간 복잡도를 지속적으로 개선 
+> ### 📌 06. Graph : 
 
-### 📌 전반적인 자료구조 시간 복잡도
+
+<br>
+
+### ⏳ 전반적인 자료구조 시간 복잡도
 
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/659a6c6b-f03f-41a1-acbb-98fcc5b8874b"  width="500" height="500"/>
 
 <br>
 <br>
 
-### 📌 전반적인 자료구조 시간 복잡도 그래프
+### 📈 전반적인 자료구조 시간 복잡도 그래프
 
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/2915770a-5e60-4659-9714-31b85df1a9dd"  width="500" height="500"/>
 
 
-## 📌 01. List : <strong>데이터가 나열되어 있음</strong>
+<br>
+<br>
+<hr>
+
+## 📌 01. Array, List : 데이터가 나열되어 있음
 
 > ### 👉 Array 
 > ### - 데이터가 연속적으로 묶어서 관리
