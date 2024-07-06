@@ -568,8 +568,8 @@
 
 <br>
 
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/73502276-1392-480b-bd89-959cb2d44870"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/283223b3-535a-46b0-8f18-859d38a050d9"  width="500" height="500"/>
 - 해싱 : 키를 함수를 사용해 변환한 값을 배열의 인덱스로 이용하여 항목을 저장하는 것
 - 해시함수 : 해싱에 사용되는 함수, 위치를 알려줌
   - 나눗셈 함수를 주로 사용, h(key) = key % M (주로 소수를 사용함)
@@ -592,23 +592,23 @@
   - 대용량의 DB를 위한 해싱법, 재해싱을 수행 x 동적으로 해시 테이블 크기 조절
 
 - 확장 해싱
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/d9b2d271-e3fa-4eaf-9139-46dfa54ecd3b"  width="500" height="500"/>
   - 디렉터리를 메인 메모리에 저장
   - 데이터는 디스크 블록 크기의 버킷 단위로 저장 
 
 - 선형 해싱 
   - 디렉터리 없이 삽입, 버킷을 순서대로 추가하는 방식
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/3b299796-d6aa-4c0a-9bc0-7e5fb68460b7"  width="500" height="500"/>
   
 
 - 해시 방법의 성능 비교
-  - <img src=""  width="500" height="500"/>
+  - <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ceca0217-acf6-4788-8204-5db4507e8c3c"  width="500" height="500"/>
   
 <br>
 
 - 자바의 hashCode() : 같은 키를 넣으면 항상 동일한 값이 나와야함 
   - Objects.hash(A, B)로 사용하길 권장
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/20dc20a1-bd98-4417-a855-6217897317c1"  width="500" height="500"/>
 
 <br>
 <br>
@@ -618,7 +618,7 @@
 <br>
 
 - [선형 조사 방식의 키 저장 과정]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/e84766bf-3ec7-4e5f-a118-5a779191a6b6"  width="500" height="500"/>
 - 충돌이 발생한 원소로부터 순차적으로 검색하여 처음 발견한 empty 원소에 충돌된 키를 저장 
 
 
@@ -626,7 +626,7 @@
 <br>
 
 - [이차 조사]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/6b3a8af8-1737-417b-b129-2ad97418c916"  width="500" height="500"/>
 - 선형 조사와 동일한 방법 
 
 <br>
@@ -637,7 +637,7 @@
 <br>
 
 - [이중 해싱]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/019c650f-ab32-4c5a-b5f4-5416cc046ebc"  width="500" height="500"/>
 - 2개의 해시 함수를 사용하는 충돌 해결법 
 
 
@@ -647,13 +647,13 @@
 ### 04-3. 폐쇄 주소 방식 : 키에 대한 해시값에 대응되는 곳에만 키를 저장, 따라서 충돌이 발생한 키들은 한 위치에 저장 -> 체이닝 
 
 - [체이닝]
-- <img src=""  width="500" height="500"/>
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/4e8c0dfc-dc9e-4f04-8b64-83384f7447d5"  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/008ba0c9-0c50-4f9d-bbaa-551105c88141"  width="500" height="500"/>
 
 <br>
 
 > ## 🧑🏻‍🏫 Hash Table 파트 요약
-> ### <img src=""  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/60b77b76-a296-43cf-accf-e0cf9767b7ea"  width="500" height="500"/>
 
 <br>
 <br>
