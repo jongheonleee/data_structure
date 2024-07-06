@@ -9,7 +9,7 @@
 <br>
 
 ## 📋 목차
-> ### 📌 01. Array, List : 데이터가 나열되어 있음
+> ### 📌 01. Array, List : 데이터가 나열되어 있음 -> 뭉쳐 있음 / 연결되어 있음 
 > ### 📌 02. Stack, Queue, Deque : 데이터를 어떤 방향으로 넣고 꺼낼까 -> LIFO, FIFO
 > ### 📌 03. Tree : List를 업그레이드 시킨 버전, O(n) -> O(logn)
 > ### 📌 04. Hash Table : Tree의 취약점 보완 -> { 대용량 x, O(logn) -> 대용량 & O(1) }, Array + List + hash()을 조합한 자료구조
@@ -93,7 +93,7 @@
 <img src="https://github.com/jongheonleee/data_structure/assets/87258372/5b2e2253-636b-4161-b0da-9464e7d99ca7"  width="500" height="500"/>
 
 > ## 🧑🏻‍🏫  Array, List 파트 요약
-> ### <img src=""  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/745c42fb-0835-41cf-a70c-c0ddc649dd68"  width="500" height="500"/>
 
 <br>
 <br>
@@ -131,7 +131,7 @@
 <br>
 
 > ## 🧑🏻‍🏫  Stack, Queue, Deque 파트 요약
-> ### <img src=""  width="500" height="500"/>
+> ### <img src="https://github.com/jongheonleee/data_structure/assets/87258372/79f563e6-ff62-4c34-acbb-0da4b100bc0b"  width="500" height="500"/>
 
 <br>
 <br>
