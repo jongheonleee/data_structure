@@ -395,7 +395,7 @@
 <br>
 
 - [탐색 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/f4621266-839b-4c27-b2d8-e85beb4b1c22"  width="500" height="500"/>
 - 이진 탐색과 같은 형식임, 하지만 3 범위를 확인함
 - 예를 들어서, 그림과 같이 80을 50<80 -> 70 < 80 < 90 범위를 찾아나감
 
@@ -410,7 +410,7 @@
 <br>
 
 - [이동 연산]
-- <img src=""  width="500" height="500"/>
+- <img src="https://github.com/jongheonleee/data_structure/assets/87258372/ed4bdb5e-428a-46af-838f-6041ef067e11"  width="500" height="500"/>
 - 키가 삭제되어 노드가 empty, 이 노드의 형제 노드와 부모의 도움을 받아 1개의 키를 empty 노드로 이동
 
 <br>
